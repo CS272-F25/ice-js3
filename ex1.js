@@ -9,7 +9,9 @@ const student = {
    (or some that you make up)
 */
 
-// write code here
+student.name = "Dan";
+student.age = 33;
+student.isFullTime = false;
 
 console.log(student);
 

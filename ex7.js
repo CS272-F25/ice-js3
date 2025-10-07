@@ -10,7 +10,11 @@ function power(base, exponent) {
     );
   }
 
-  // your code here!
+  let output = base;
+  for (let i = 1; i < exponent; i++) {
+    output = output * base;
+  }
+  return output;
 }
 
 console.log("let's run some tests");
@@ -24,3 +28,4 @@ function test(base, exponent) {
 test(2, 3);
 test(3, 4);
 test(5, 6);
+console.log(power(2, 3));

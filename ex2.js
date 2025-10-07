@@ -10,7 +10,9 @@ const anotherBucky = {};
    change the data so that the final console.log prints Bucky's information
 */
 
-// write code here
+anotherBucky.name = student.name;
+anotherBucky.age = student.age;
+anotherBucky.isFullTime = student.isFullTime;
 
 console.log(anotherBucky);
 

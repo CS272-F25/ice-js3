@@ -11,7 +11,7 @@ const key = "isFullTime";
    change the data so that the final console.log prints false
 */
 
-// write code here
+student[key] = false;
 
 console.log(student.isFullTime);
 

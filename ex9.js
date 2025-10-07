@@ -15,3 +15,11 @@ function convertFtoC(tempF) {
 /* Write code to print out the temperature in Celsius for each day:
    `${dayName} it will be ${tempC} degrees Celsius`
 */
+
+for (const datum of data) {
+  console.log(
+    `${datum.day} it will be ${convertFtoC(datum.tempF).toFixed(
+      0
+    )} degrees Celsius`
+  );
+}

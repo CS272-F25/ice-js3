@@ -6,7 +6,13 @@ const grades = ["A", "A", "AB", "C", "B"];
    ["A", "B", "C"]
 */
 
-// write code here!
+grades.pop(); // B
+grades.pop(); // C
+grades.pop(); // AB
+grades.pop(); // A
+grades.push("B");
+grades.push("C");
+grades.push("AB");
 
 // Don't edit the below code
 const last = grades.pop();

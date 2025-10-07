@@ -4,3 +4,9 @@ function rollDie() {
 
 // write a while loop that rolls the die until a 6 is rolled!
 // use console.log to print the roll in every iteration
+
+let lastRoll;
+while (lastRoll !== 6) {
+  lastRoll = rollDie();
+  console.log(lastRoll);
+}
